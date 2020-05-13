@@ -13,7 +13,7 @@ port = 80
 try: 
     host_ip = socket.gethostbyname('www.google.com') 
 except socket.gaierror: 
-  
+  ## new changes
     # this means could not resolve the host 
     print("there was an error resolving the host")
     sys.exit() 
